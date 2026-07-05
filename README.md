@@ -58,4 +58,4 @@ Após o processamento e análise da base, o **AuditorIA** gerou os seguintes ins
 
 ## 📬 Contato
 
-Desenvolvido por Gabriel Copriva de Souza Santos - https://www.linkedin.com/in/gabrielcopriva// contatogabrielcopriva@gmail.com
+Desenvolvido por Gabriel Copriva de Souza Santos - https://www.linkedin.com/in/gabrielcopriva/ -  contatogabrielcopriva@gmail.com
