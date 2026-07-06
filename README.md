@@ -55,7 +55,3 @@ O motor do projeto processa o histórico de movimentações focando nos seguinte
 ├── scripts/        # Código-fonte Python (Limpeza e Motor de Regras)
 └── README.md       # Documentação do projeto
 
-📬 Contato
-Gabriel Copriva de Souza Santos
-
-LinkedIn | contatogabrielcopriva@gmail.com
