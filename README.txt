@@ -1,61 +1,55 @@
-🔍 AuditorIA: Risk & Compliance Analytics 
+🔍 AuditorIA: Risk & Compliance Analytics
+O AuditorIA é uma solução de inteligência de dados aplicada a Finanças e Compliance, desenvolvida para automatizar a detecção de riscos financeiros em transações corporativas. Este projeto demonstra a intersecção entre Engenharia de Dados (Python) e Business Intelligence (Power BI) para transformar dados brutos em inteligência para tomada de decisão.
 
-O **AuditorIA** é uma solução de inteligência de dados aplicada a Finanças e Compliance, desenvolvida para automatizar a detecção de riscos financeiros em transações corporativas. 
+🚀 Arquitetura da Solução
+O fluxo de dados foi desenhado para garantir reprodutibilidade e escalabilidade:
 
-O projeto combina **Python (Pandas)** para a engenharia de dados, limpeza e aplicação do motor de regras de conformidade, com o **Power BI (DAX)** para a criação de um ecossistema visual focado no monitoramento e mitigação de riscos operacionais.
+Ingestão e Saneamento (Python): Tratamento de bases brutas, normalização de formatos (datas, valores, chaves) e eliminação de ruídos.
 
----
+Motor de Auditoria (Python): Aplicação automatizada de regras de negócio (Compliance Engine) para identificar desvios e anomalias.
 
-## 🚀 Arquitetura da Solução
+Visibilidade Estratégica (Power BI): Modelagem de dados em Star Schema com medidas avançadas em DAX para monitoramento em tempo real.
 
-1. **Ingestão e Saneamento (Python):** Tratamento da base bruta de transações e padronização das colunas críticas (datas, valores e chaves únicas).
-2. **Motor de Auditoria (Python):** Aplicação automatizada das regras de compliance para identificar desvios, gerando bases específicas de anomalias.
-3. **Visibilidade Estratégica (Power BI):** Modelagem de dados com medidas avançadas em DAX e design focado em tomada de decisão (*Data-Driven*).
+🛠️ Tecnologias e Ferramentas
+Linguagem: Python 3.x
 
----
+Bibliotecas: Pandas (Manipulação e Engenharia de dados)
 
-## 🛠️ Tecnologias e Ferramentas
+BI: Power BI Desktop (Modelagem, UX/UI e Dashboards)
 
-* **Python 3.x**
-* **Pandas** (Engenharia de dados e automação)
-* **Microsoft Excel** (Armazenamento e exportação dos relatórios)
-* **Power BI Desktop** (Modelagem, dashboards e UX/UI)
-* **DAX - Data Analysis Expressions** (Indicadores analíticos dinâmicos)
+Lógica Analítica: DAX (Data Analysis Expressions)
 
----
+Output: MS Excel (Exportação de evidências de auditoria)
 
-## 📊 Principais Análises & Regras de Compliance
+📊 Principais Análises & Regras de Compliance
+O motor do projeto processa o histórico de movimentações focando nos seguintes pilares:
 
-O motor do projeto analisa o histórico de movimentações focando nas seguintes frentes de auditoria:
+Identificação de Duplicidades: Cruzamento de múltiplos atributos (fornecedor, valor, data) para estorno ou bloqueio preventivo.
 
-* **Transações Duplicadas:** Cruzamento e identificação de registros idênticos (mesmo fornecedor, valor e data) que sinalizam falhas de processo ou pagamentos em duplicidade.
-* **Valores Críticos:** Alerta automático para movimentações isoladas com valores acima de R$ 50.000,00.
-* **Exposição Financeira:** Cálculo do volume total de capital em risco associado a transações não conformes.
-* **Taxa de Risco:** Percentual de transações que apresentam alguma inconformidade em relação à base total.
-* **Índice de Conformidade (DAX):** Indicador dinâmico que reflete a saúde financeira e a maturidade dos processos da empresa.
-* **Ranking de Fornecedores:** Mapeamento e classificação dos prestadores de serviço com maior recorrência de inconformidades (*Top Offenders*).
+Análise de Valores Críticos: Filtro inteligente para movimentações acima de R$ 50.000,00.
 
----
+Gestão de Risco: Cálculo de exposição financeira em valores nominais.
 
-## 🎯 Resultados Obtidos
+Índice de Conformidade: KPI dinâmico via DAX que reflete a saúde dos processos.
 
-Após o processamento e análise da base, o **AuditorIA** gerou os seguintes insights quantitativos:
+Análise de Top Offenders: Ranking de fornecedores com maior incidência de inconformidades.
 
-* **5.000** transações corporativas auditadas e integradas.
-* **171** duplicidades reais detectadas e isoladas para estorno/bloqueio.
-* **217** transações classificadas como **Alto Risco** (necessitando de auditoria manual imediata).
-* **92,54% de Índice de Conformidade**, fornecendo à diretoria uma visão clara da eficiência operacional da empresa.
+🎯 Resultados Obtidos
+O projeto entregou indicadores de alto impacto operacional:
+Indicador, Valor
+Transações Auditadas, 5.000
+Duplicidades Detectadas, 171
+Transações de Alto Risco, 217
+Índice de Conformidade,"92, 54%"
 
----
+📁 Estrutura do Repositório
+├── data/           # Arquivos de exportação e evidências
+├── dashboards/     # Arquivo .pbix do Power BI
+├── scripts/        # Código-fonte Python (Limpeza e Motor de Regras)
+└── README.md       # Documentação do projeto
 
-## 📁 Estrutura do Repositório
+📬 Contato
+Gabriel Copriva de Souza Santos * LinkedIn
+contatogabrielcopriva@gmail.com
 
-* `scripts/`: Código-fonte em Python para tratamento e filtragem dos dados.
-* `data/`: Relatórios gerados em Excel prontos para consumo.
-* `dashboards/`: Arquivo `.pbix` do Power BI com o ecossistema visual de risco.
-
----
-
-## 📬 Contato
-
-Desenvolvido por Gabriel Copriva de Souza Santos -  https://www.linkedin.com/in/gabrielcopriva/ - contatogabrielcopriva@gmail.com
+Projeto desenvolvido para demonstração de competências em Data Analytics aplicado à Auditoria.
