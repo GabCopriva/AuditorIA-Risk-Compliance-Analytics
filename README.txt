@@ -1,4 +1,4 @@
-# 🔍 AuditorIA: Risk & Compliance Analytics 
+## 🔍 AuditorIA: Risk & Compliance Analytics 
 
 O **AuditorIA** é uma solução de inteligência de dados aplicada a Finanças e Compliance, desenvolvida para automatizar a detecção de riscos financeiros em transações corporativas. 
 
